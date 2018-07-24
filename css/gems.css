@@ -1,4 +1,4 @@
-
+/* Select the image with a id of ruby */
 
 #ruby {
   position: absolute;
@@ -16,6 +16,7 @@
   left: 369px;
 }
 
+/* Select the image inside the element with an id of sand (using its descendant relationship) */
 
 #sand {
   position: absolute;
@@ -24,7 +25,7 @@
   left: 275px;
 }
 
-
+/* Select the image with the class "yellow_diamond" */
 
 .yellow_diamond {
   position: absolute;
@@ -33,8 +34,8 @@
   left: 200px;
 }
 
-
-img[alt="diamond"] {
+/* Select the image that has ad id of diamond */
+.diamond {
   position: absolute;
   z-index: 3;
   top: 300px;
